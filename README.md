@@ -227,7 +227,7 @@ def meals
   Meal.all.select do |meal|
     meal.customer == self
   end
-end
+end 
 ```
 
 Boom. We're iterating through every instance of `Meal` and returning only the
